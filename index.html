@@ -33,7 +33,7 @@ eleventyComputed:
     <a href="/cpsc349-project1{{ pagination.href.previous }}">Previous</a>
     {% else %} Previous {% endif %} {% if pagination.href.next %}
     <a href="/cpsc349-project1{{ pagination.href.next }}">Next</a>
-    {% else %} Next {% endif %} {% if pagination.pageNumber != 5 %}
+    {% else %} Next {% endif %} {% if pagination.pageNumber != 10 %}
     <a href="/cpsc349-project1{{ pagination.href.last }}">Last</a>
     {% else %} Last {% endif %}
   </div>
