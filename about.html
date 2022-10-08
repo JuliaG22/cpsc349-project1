@@ -10,6 +10,7 @@ description: 11ty Pexels is a project made for CPSC 349-01 (Web Front-End Engine
 
   {%- for dev in devs %}
     <aside>
+      <img src="{{dev.profile}}" alt="team member image"></img>
       <h2>{{dev.name}}</h2>
       <a href="{{dev.gh}}" target="_blank">GitHub Fork</a>
     </aside>
